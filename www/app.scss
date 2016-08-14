@@ -1,0 +1,90 @@
+$primary-font: 'Roboto', sans-serif;
+$secondary-font: 'Roboto', sans-serif;
+$title-size: 60px;
+$section-title-font-size: 32px;
+$paragraph-font-size: 14px;
+$primary-color: #DC310C;
+$secondary-color: #DC5330;
+$tertiary-color: #FFF496;
+$positive-color: #2ecc71;
+$negative-color: #e74c3c;
+
+body {
+  font-family: $secondary-font;
+}
+
+.nav-container {
+
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: black;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: $positive-color;
+}
+
+.navbar>.container-fluid .navbar-brand {
+  color: black;
+  font-weight: 700;
+}
+
+.navbar>.container-fluid .navbar-brand:hover {
+  color: $positive-color;
+}
+
+.voting {
+  display: block;
+}
+
+#vote-icon-plus {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: inline;
+  padding: 5px;
+}
+
+#vote-icon-plus .material-icons {
+  color: $positive-color;
+  background-color: white;
+  font-size: 18px;
+  border-radius: 3px;
+  border: 1px solid $positive-color;
+  vertical-align: middle;
+}
+
+.vote-icon-minus {
+  color: $negative-color;
+}
+
+.video-author-info {
+}
+
+.author-info-container {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.video-author-name {
+  display: inline-block;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.video-author-avatar {
+  border: 1px solid $positive-color;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.player .sidedock {
+  display: none;
+}

@@ -1,0 +1,114 @@
+body {
+  font-family: "Roboto", sans-serif; }
+
+.navbar {
+  margin-bottom: 0px; }
+
+.navbar-default .navbar-nav > li > a {
+  color: black; }
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #2ecc71; }
+
+.navbar > .container-fluid .navbar-brand {
+  color: black;
+  font-weight: 700; }
+
+.navbar > .container-fluid .navbar-brand:hover {
+  color: #2ecc71; }
+
+.voting {
+  display: block; }
+
+#vote-icon-plus {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: inline;
+  padding: 5px; }
+
+#vote-icon-plus .material-icons {
+  color: #2ecc71;
+  background-color: white;
+  font-size: 18px;
+  border-radius: 3px;
+  border: 1px solid #2ecc71;
+  vertical-align: middle; }
+
+.vote-icon-minus {
+  color: #e74c3c; }
+
+.author-info-container {
+  display: inline-block;
+  vertical-align: middle; }
+
+.video-author-name {
+  display: inline-block;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+.video-author-avatar {
+  border: 1px solid #2ecc71;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 10px; }
+
+.player .sidedock {
+  display: none; }
+
+.home-wrapper {
+  color: black; }
+
+.header-section {
+  position: relative;
+  z-index: 1000;
+  height: 500px;
+  color: white;
+  padding: 50px; }
+
+.stars-bg {
+  position: relative; }
+
+.stars, .twinkling, .clouds {
+  height: 500px; }
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  font-weight: 800;
+  margin-top: 50%;
+  transform: translate(0, -50%); }
+
+.call-content {
+  text-align: center;
+  padding: 20px;
+  border-bottom: 1px solid #555; }
+
+.call-button {
+  padding: 10px;
+  font-weight: 400;
+  margin: 5px;
+  background-color: #2ecc71;
+  border: 1px solid white; }
+
+.call-button:hover {
+  color: black;
+  border: 1px solid black; }
+
+.section-2 {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.section-2-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  font-weight: 600; }
+
+.section-2-para {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #555;
+  margin-top: 20px;
+  margin-bottom: 10px; }

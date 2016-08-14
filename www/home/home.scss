@@ -1,0 +1,70 @@
+@import '../app';
+.home-wrapper {
+  color: black;
+}
+
+.header-section {
+  position: relative;
+  z-index: 1000;
+  height: 500px;
+  color: white;
+  padding: 50px;
+}
+
+.stars-bg {
+  position: relative;
+}
+
+.stars,.twinkling,.clouds {
+  height: 500px;
+}
+
+.title {
+  font-family: $primary-font;
+  font-size: $title-size;
+  font-weight: 800;
+  margin-top: 50%;
+  transform: translate(0,-50%);
+}
+
+.call {
+}
+
+.call-content {
+  text-align: center;
+  padding: 20px;
+  border-bottom: 1px solid #555;
+}
+
+.call-button {
+  padding: 10px;
+  font-weight: 400;
+  margin: 5px;
+  background-color: $positive-color;
+  border: 1px solid white;
+}
+
+.call-button:hover {
+  color: black;
+  border: 1px solid black;
+}
+
+.section-2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section-2-title {
+  font-family: $secondary-font;
+  font-size: $section-title-font-size;
+  font-weight: 600;
+}
+
+.section-2-para {
+  font-family: $secondary-font;
+  font-size: $paragraph-font-size;
+  font-weight: 300;
+  color: #555;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
